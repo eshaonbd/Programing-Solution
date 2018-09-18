@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int maxx(){
+    int a,b,c;
+    a=2;
+    b=9;
+    c=5;
+    
+   if(a>b && a>c) {
+       cout<<"The largest Number is: "<<a;
+   }
+   else if(b>a && b>c){
+       cout<<"The largest Number is: "<<b;
+   }
+  else{
+     cout<< "The largest Number is: "<<c;
+  }
+}
+
+int main()
+{
+    maxx();
+    return 0;
+}
