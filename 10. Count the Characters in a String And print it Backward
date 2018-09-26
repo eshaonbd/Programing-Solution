@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    string A="shaon Hasan";
+    
+    cout<<"Size : "<<A.size()<<endl;
+    
+   for(int i=11; i>-1; i--){
+    cout<<A[i];
+}
+    return 0;
+}
