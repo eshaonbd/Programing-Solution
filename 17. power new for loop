@@ -1,0 +1,16 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int power(int a, int b){
+    int d=1;
+    for(int i=b; i!=0; i--){
+        d*=a;
+
+    }
+return d;
+}
+
+int main(){
+int s=power(2,3);
+cout<<s;
+}
